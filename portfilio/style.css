@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, #e2e7a9 0%, rgb(108, 65, 65) 100%);
+    
+  }
+  
+
+.name{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+    height:10vh;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+.aboutme {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.skill{
+     
+    margin-left: 200px;
+    margin-right: 200px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+}
+.project{
+     
+    margin-left: 200px;
+    margin-right: 200px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-image: linear-gradient(60deg, #97c6ed 0%, #cedbc0 100%);
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+}
+.contact{
+     
+    margin-left: 200px;
+    margin-right: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-image: linear-gradient(-45deg, #ca9567 0%, #8ec0e1 100%);
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+}
+h2{
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: rgb(54, 52, 55);
+}
+@media (max-width: 768px) {
+    .aboutme,
+    .skill,
+    .project,
+    .contact {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 15px;
+    }}
